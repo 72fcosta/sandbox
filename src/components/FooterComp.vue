@@ -7,7 +7,7 @@ import IconLogo from '@/components/icons/IconLogo.vue'
       <div class="flex items-center gap-x-1 text-sm leading-none">
          <span>2023</span>
          <span>©</span>
-         <span class="mb-[1px] ml-[2px] border-r border-white/10 pr-[4px]">
+         <span class="mb-[1px] ml-[2px] border-r-2 border-white/20 pr-[4px]">
             <IconLogo class="w-[80px]" />
          </span>
          <span class="pb-[1px]">Desenvolvedor Web</span>
