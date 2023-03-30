@@ -5,8 +5,10 @@ module.exports = {
     "./src/**/*.{vue,js,ts}",
   ],
   theme: {
-    extend: {},
-  },
+    container: {
+       center: true,
+    },
+ },
   plugins: [require("tw-elements/dist/plugin")],
 }
 
