@@ -9,7 +9,7 @@ const logToConsole = () => {
 </script>
 
 <template>
-   <main class="flex w-full flex-col bg-[#060e2c]">
+   <main class="flex w-full flex-col bg-[#000720]">
       <h1 class="flex w-full bg-[#132865] p-6">SANDBOX</h1>
       <div class="grow px-6 py-5">
          <p v-text="consoleLogOutput"></p>
