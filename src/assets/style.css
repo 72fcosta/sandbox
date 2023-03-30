@@ -118,11 +118,6 @@
       margin-top: 1px;
    }
 
-   /* hr */
-   hr {
-      @apply border-t-base-300;
-   }
-
    /* dash-user-contents */
    .dash-user-contents .infra-item-disabled {
       @apply pointer-events-none select-none opacity-10;
