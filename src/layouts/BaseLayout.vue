@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import IconLogo from '@/components/icons/IconLogo.vue'
+import IconAlert from '@/components/icons/IconAlert.vue'
 import FooterComp from '@/components/FooterComp.vue'
 </script>
 
 <template>
-   <NavComp class="hidden xl:flex" />
-
    <main class="container flex max-w-screen-xl grow p-4 xl:hidden">
       <div class="card-t w-full max-w-sm place-self-center">
          <div class="card-body gap-y-8">
@@ -18,7 +17,7 @@ import FooterComp from '@/components/FooterComp.vue'
             </div>
 
             <div class="mb-2 flex justify-center">
-               <IconLogo class="w-56 fill-neutral" />
+               <IconLogo class="fill-neutral w-56" />
             </div>
 
             <a href="#" class="btn-t gap-x-2">
